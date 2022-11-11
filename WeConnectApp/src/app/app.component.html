@@ -14,7 +14,25 @@
         <a class="nav-link mylink disable" [routerLink]="['user/profile']" *ngIf="uProfile"> <i class="fa fa-user"></i>&nbsp; View Profile</a>
       </li>
 
-      
+      <li class="nav-item myitem">
+        <a class="nav-link mylink disable" [routerLink]="['user/appointments']" *ngIf="uProfile"> <i class="fa fa-list"></i>&nbsp;My Appointments</a>
+      </li>
+
+      <li class="nav-item myitem">
+        <a class="nav-link mylink disable" [routerLink]="['coach/profile']" *ngIf="cProfile"> <i class="fa fa-user"></i>&nbsp;View Profile</a>
+      </li>
+
+      <li class="nav-item myitem">
+        <a class="nav-link mylink disable" [routerLink]="['coach/home']" *ngIf="cProfile"> <i class="fa fa-list"></i>&nbsp;My Schedules</a>
+      </li>
+
+      <li class="nav-item myitem">
+        <a class="nav-link mylink disable" [routerLink]="['/home']" *ngIf="uProfile"> <i class="fa fa-phone"></i>&nbsp;Call Us: 1-800-555-5555</a>
+      </li>
+
+      <li class="nav-item myitem" *ngIf="logout">
+        <a class="nav-link mylink" (click)="logoutFn()" [routerLink]=""> <i class="fa fa-sign-out"></i>&nbsp;Logout</a>
+      </li>
     </ul>
   </div>
 </nav>

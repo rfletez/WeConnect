@@ -1,0 +1,61 @@
+{
+    "users": [
+        { 
+            "id": 1, 
+            "name": "Mary",
+            "password": "mary#123",
+            "gender": "F",
+            "dateOfBirth": "1996-01-25",
+            "email": "mary@email.com",
+            "mobileNumber": 1234567890,
+            "pincode": 12345,
+            "city": "Biltmore",
+            "state": "Alabama",
+            "country": "USA"
+        },
+        {
+            "id": 2, 
+            "name": "Lee",
+            "password": "lee$0123",
+            "gender": "F",
+            "dateOfBirth": "1996-05-22",
+            "email": "lee@email.com",
+            "mobileNumber": 2345678901,
+            "pincode": 23456,
+            "city": "Staten",
+            "state": "New York",
+            "country": "USA"
+        }
+    ],
+
+    "coaches": [
+        { 
+            "id": 1, 
+            "name": "Rose",
+            "password": "rose#1234",
+            "gender": "F",
+            "dateOfBirth": "1995-06-14",
+            "mobileNumber": 3456789012,
+            "specialty": "Improving confidence"
+        },
+        {
+            "id": 2, 
+            "name": "Sam",
+            "password": "sam#1234",
+            "gender": "M",
+            "dateOfBirth": "1994-07-20",
+            "mobileNumber": 4567890123,
+            "specialty": "Depression issues"
+        }
+    ],
+
+    "bookings": [
+        {
+            "appointmentDate": "2021-07-13",
+            "slot": "8AM to 10AM",
+            "userId": 2,
+            "coachId": 2,
+            "id": 1
+        }
+    ]
+}
