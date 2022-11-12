@@ -25,6 +25,19 @@
             "city": "Staten",
             "state": "New York",
             "country": "USA"
+        },
+        {
+            "id": 3, 
+            "name": "Ashley",
+            "password": "ash$0123",
+            "gender": "F",
+            "dateOfBirth": "1999-02-17",
+            "email": "ash@email.com",
+            "mobileNumber": 3456789012,
+            "pincode": 34567,
+            "city": "Phoenix",
+            "state": "Arizona",
+            "country": "USA"
         }
     ],
 
@@ -46,6 +59,15 @@
             "dateOfBirth": "1994-07-20",
             "mobileNumber": 4567890123,
             "specialty": "Depression issues"
+        },
+        {
+            "id": 3, 
+            "name": "Russell",
+            "password": "russell#1234",
+            "gender": "M",
+            "dateOfBirth": "1991-04-14",
+            "mobileNumber": 5678901234,
+            "specialty": "Time management"
         }
     ],
 
