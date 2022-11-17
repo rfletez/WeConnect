@@ -15,6 +15,8 @@ import { CoachModule } from './coach/coach/coach.module';
 import { LoginService } from './login/login.service';
 import { SignupService } from './signup/signup.service';
 import { UserProfileComponent } from './user/user-profile/user-profile.component';
+import { UserHomeComponent } from './user/user-home/user-home.component';
+import { AppointmentsComponent } from './user/appointments/appointments.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { UserProfileComponent } from './user/user-profile/user-profile.component
     SignupComponent,
     CoachComponent,
     UserComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    UserHomeComponent,
+    AppointmentsComponent
   ],
   imports: [
     BrowserModule,
